@@ -1,0 +1,453 @@
+Message-ID: <1685641214.211642.1628782591296.JavaMail.confluence@nrc3lwiki01vm.nix.aciww.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_211641_489798681.1628782591296"
+
+------=_Part_211641_489798681.1628782591296
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>EDNS-Data Service Flow</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>EDNS-Data Service Flow</h1>
+    <div class=3D"Section1">
+        <p><br></p>
+<p>EDNS pub service -&nbsp;Publisher pushes data to edns namespace whereas =
+consumer subscribes to the namespace and reads the events.</p>
+<p></p>
+<p><strong>Works flow</strong></p>
+<p><strong>Event Assembler:</strong>&nbsp;</p>
+<p>Basically takes ingestion requirements from users and validates config/a=
+rguments based on datastore.&nbsp; Then connect the requested datastore and=
+ get the details of the events to publish.&nbsp;&nbsp;</p>
+<ol>
+<li>Map datastore&nbsp;</li>
+<li>Find latest/last modified files/records&nbsp;&nbsp;</li>
+<li>Prepare the events and for edns namespace format.</li>
+<li>Publish the events to ends and log event details.</li>
+<li>Assembler - We can preferably build an application with a CLI interface=
+ or Exposing as a REST service gives more accessibility too.</li>
+<li>There is no data processing requirement involved here.</li>
+</ol>
+<p><br></p>
+<p> <map id=3D"gliffy-map-407269693-7470" name=3D"gliffy-map-407269693-7470=
+"></map> </p>
+<table width=3D"100%" class=3D"gliffy-macro-table">=20
+<tbody>
+<tr>=20
+<td>=20
+<table class=3D"gliffy-macro-inner-table">=20
+<caption align=3D"bottom">=20
+</caption>=20
+<tbody>
+<tr>=20
+<td> <img style=3D"border: none; width: 641px;" usemap=3D"#gliffy-map-40726=
+9693-7470" src=3D"/download/attachments/407269651/EDNS-Service.png?version=
+=3D7&amp;modificationDate=3D1628628746087&amp;api=3Dv2" alt=3D"" class=3D"g=
+liffy-macro-image"> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<p></p>
+<p><strong>Service payload for 1 datastore[Hive]</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "events": [
+    {
+      "nameSpace": "edns-namespace",
+      "eventDetails": {
+        "dataStoreType": "HIVE",
+        "eventType": "DATESET_CREATE",
+        "dataSetUri": "HDFS location/external table location",
+        "timeStamp": "current_time"
+      },
+      "dataSetUnits": [
+         {
+        "unitLevel": "DAY",
+        "unitValue": "date=3D2021-08-10"
+      }
+      ],
+      "sourceTaskDetails": {
+        "workFlowType": "NameOFtheJob",
+        "workFlowDetails": {
+          "dagRunId": "name of the dag",
+          "taskId": "name of the task",
+          "taskInstanceId": "instanceID of comb of dag&amp;task"
+        }
+      }
+    }
+  ]
+}</pre>=20
+</div>
+</div>
+<p><br></p>
+<p><strong>Service payload for Multiple datastore[Hive,HDFS,S3]</strong></p=
+>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "events": [
+  {
+    "nameSpace": "edns-namespace",
+    "eventDetails": {
+      "dataStoreType": "HIVE",
+      "eventType": "DATESET_CREATE",
+      "dataSetUri": "HDFS location/external table location",
+      "timeStamp": "current_time"
+    },
+    "dataSetUnits": [
+      {
+        "unitLevel": "DAY",
+        "unitValue": "date=3D2021-08-10"
+      }
+    ],
+    "sourceTaskDetails": {
+      "workFlowType": "NameOFtheJob",
+      "workFlowDetails": {
+        "dagRunId": "name of the dag",
+        "taskId": "name of the task",
+        "taskInstanceId": "instanceID of comb of dag&amp;task"
+      }
+    }
+  },
+  {
+    "nameSpace": "edns-namespace",
+    "eventDetails": {
+      "dataStoreType": "HDFS",
+      "eventType": "DATESET_CREATE",
+      "dataSetUri": "HDFS location",
+      "timeStamp": "current_time"
+    },
+    "dataSetUnits": [
+      {
+        "unitLevel": "DAY",
+        "unitValue": "date=3D2021-08-10"
+      }
+    ],
+    "sourceTaskDetails": {
+      "workFlowType": "NameOFtheJob",
+      "workFlowDetails": {
+        "dagRunId": "name of the dag",
+        "taskId": "name of the task",
+        "taskInstanceId": "instanceID of comb of dag&amp;task"
+      }
+    }
+  }
+]
+}</pre>=20
+</div>
+</div>
+<p><strong>Event - Assembler to EDNS publisher event message 1 or more</str=
+ong></p>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "nameSpace": "edns-namespace",
+  "eventDetails": {
+    "dataStoreType": "HIVE",
+    "eventType": "DATESET_CREATE",
+    "dataSetUri": "/tmp/date=3D20210810/hello.txt",
+    "timeStamp": "current_time"
+  },
+  "dataSetUnits": [
+    {
+      "unitLevel": " YYYYMMDD",
+      "unitValue": " 20210810"
+    }
+  ],
+  "sourceTaskDetails": {
+    "workFlowType": "NameOFtheJob",
+    "workFlowDetails": {
+      "dagRunId": "name of the dag",
+      "taskId": "name of the task",
+      "taskInstanceId": "instanceID of comb of dag&amp;task"
+    }
+  }
+}
+{}...
+{}...</pre>=20
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+<p><strong>File Listener&nbsp;</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">
+{
+  "file_offset": {
+    "path": " /data/sales",
+    "last_file_offset_ts": " 20210809010112333",
+    "files": [
+      "/data/sales/date=3D2021-08-09/ca=3D/1.csv",
+      "/data/sales/date=3D2021-08-09/ca=3D/3.csv"
+    ]
+  },
+  "delta_file": {
+    "path": " /data/sales",
+    "created_update_ts": " 20210810010112333",
+    "files": [
+      "/data/sales/date=3D2021-08-10/tx=3D/1.csv",
+      "/data/sales/date=3D2021-08-10/tx=3D/2.csv"
+    ]
+  }
+}
+
+
+
+</pre>=20
+</div>
+</div>
+<p><br></p>
+<p>QA1.&nbsp;</p>
+<ol>
+<li>Do we really need Airflow here? If yes, please share your thought proce=
+ss&nbsp;</li>
+<li>Language preference? Python&nbsp;</li>
+<li>Deployment mode always docker img ? Yes&nbsp;</li>
+<li>Phase -1 will cover the datastore support for Hive/HDFS/S3 , the same m=
+odel can eval for other data store types (oracle)</li>
+<li><span style=3D"color: rgb(255,0,0);">nameSpace can be different for the=
+ same or it may be a different datastore?&nbsp;</span></li>
+</ol>
+<p><span style=3D"color: rgb(255,0,0);">Task to do:</span></p>
+<ol>
+<li>File listener&nbsp;</li>
+<li>Data-store mapper&nbsp;</li>
+<li>Event-Assembler</li>
+</ol>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_211641_489798681.1628782591296--
